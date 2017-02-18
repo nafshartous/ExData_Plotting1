@@ -7,5 +7,5 @@ z = transform(df2, Global_active_power = as.numeric(Global_active_power))
 hist(z$Global_active_power, xlab="Global Active Power (kilowatts)", 
      ylab="Frequency", col="Red", main="Global Active Power") 
 
-dev.copy(png,'foo.png')
+dev.copy(png,'plot1.png')
 dev.off()
